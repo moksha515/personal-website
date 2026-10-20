@@ -258,3 +258,22 @@ section h2::after{
     color: var(--primary-color);
     border-bottom-color: var(--primary-color);
 }
+
+
+/* ---------- Resume button (nav) ---------- */
+
+nav a.nav-resume{
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    padding: .4em .9em;
+    border: 1.5px solid var(--primary-color);
+    border-radius: .5em;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+nav a.nav-resume:hover{
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+}
